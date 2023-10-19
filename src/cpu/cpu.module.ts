@@ -6,6 +6,9 @@ import { PowerModule } from 'src/power/power.module';
   providers: [CpuService],
   imports: [ // PowerModule 과 CpuModule 연결
     PowerModule
+  ],
+  exports: [
+    CpuService
   ]
 })
 export class CpuModule {}
