@@ -11,4 +11,8 @@ export class CpuService {
 
         return a + b;
     }
+
+    getPowerServie() {
+        return this.powerService;
+    }
 }

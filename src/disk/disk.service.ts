@@ -11,4 +11,8 @@ export class DiskService {
 
         return 'data';
     }
+
+    getPowerService() {
+        return this.powerService;
+    }
 }

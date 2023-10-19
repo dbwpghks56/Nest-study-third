@@ -11,7 +11,8 @@ export class ComputerController {
     run() {
         return [
             this.cpuService.compute(1,2),
-            this.diskService.getData()
+            this.diskService.getData(),
+            this.cpuService.getPowerServie() === this.diskService.getPowerService()
         ];
     }
 }
